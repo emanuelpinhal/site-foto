@@ -5,6 +5,7 @@ img {
 
 body {
     background-color:rgb(255, 255, 238);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .s1 {
@@ -34,15 +35,12 @@ body {
 
 .cdt h1 {
     font-size: 400%;
-    font-family: 'BROWN SUGAR', cursive;
 }
 .cdt h4 {
     font-size: 350% ;
-    font-family: 'Playfair Display', cursive;
 }
 .cdt h5 {
     font-size: 150% ;
-    font-family: 'Playfair Display', cursive;
 }
 .cdt h1,
 .cdt h4 {
@@ -71,7 +69,6 @@ body {
 
 .s3 h1 {
     font-size: 400%;
-    font-family: 'BROWN SUGAR', cursive;    
 }
 
 /* 2222222222222222222222222222222222222222 */
@@ -104,20 +101,45 @@ body {
 
 .cdt2 h1 {
     font-size: 400%;
-    font-family: 'BROWN SUGAR', cursive;
     color: white;
 }
 .cdt2 h4 {
     font-size: 350% ;
-    font-family: 'Playfair Display', cursive;
     color: white;
 }
 .cdt2 h5 {
     font-size: 150% ;
-    font-family: 'Playfair Display', cursive;
     color: white;
 }
 .cdt2 h1,
 .cdt2 h4 {
     margin: 0;
+}
+
+.loja {
+    text-align: center;
+    text-decoration: black;
+}
+
+.loja a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.loja a:hover {
+    background-color: gray;
+}
+
+.loja h1 {
+    font-size: 400%;
+}
+
+.s3 input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
